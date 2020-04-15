@@ -9,7 +9,7 @@ def find_max_profit(prices):
   #keep track of the maximum profit so far
   max_profit_so_far = prices[1] - current_min_price_so_far
   # while going though the array, we wana make sure to constantly update the two.values
-  for i in range(1,prices)
+  for i in range(1,len(prices-1)):
   # once we have established which is the smallest and which is the biggest, we do the difference between the two
 
 
